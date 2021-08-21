@@ -1,4 +1,9 @@
 # VIMKU
+
+## Resource
+1. [Learn Vim For the Last Time: A Tutorial and Primer](https://danielmiessler.com/study/vim/)
+
+## Plugins and Extensions
 Plugin2 yang saya gunakan untuk power-up my vim.
 1. [vim-plug](https://github.com/junegunn/vim-plug) -> plugin manager
 2. [ale](https://github.com/dense-analysis/ale) -> linter
