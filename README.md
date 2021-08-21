@@ -13,7 +13,7 @@ Plugin2 yang saya gunakan untuk power-up my vim.
 5. [auto-pairs](https://github.com/jiangmiao/auto-pairs) -> Insert or delete brackets, parens, quotes in pair
 
 ## Output
-![image](https://user-images.githubusercontent.com/52058660/127868951-6522201c-077b-4744-aff1-993a00a43179.png)
+<img src="https://user-images.githubusercontent.com/52058660/127868951-6522201c-077b-4744-aff1-993a00a43179.png" width="700">
 
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)
