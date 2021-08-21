@@ -1,8 +1,5 @@
 # VIMKU
 
-## Resource
-1. [Learn Vim For the Last Time: A Tutorial and Primer](https://danielmiessler.com/study/vim/)
-
 ## Plugins and Extensions
 Plugin2 yang saya gunakan untuk power-up my vim.
 1. [vim-plug](https://github.com/junegunn/vim-plug) -> plugin manager
@@ -19,6 +16,10 @@ Plugin2 yang saya gunakan untuk power-up my vim.
 
 ## Output
 <img src="https://user-images.githubusercontent.com/52058660/127868951-6522201c-077b-4744-aff1-993a00a43179.png" width="700">
+
+## Resource
+1. [Learn Vim For the Last Time: A Tutorial and Primer](https://danielmiessler.com/study/vim/)
+2. [How to Learn Vim in 2020 ](https://dev.to/iggredible/learning-vim-in-2020-1mma)
 
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)
