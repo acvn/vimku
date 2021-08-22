@@ -7,7 +7,8 @@ Plugin2 yang saya gunakan untuk power-up my vim.
 4. [vim-polyglot](https://github.com/sheerun/vim-polyglot) -> syntax highlighting
 5. [auto-pairs](https://github.com/jiangmiao/auto-pairs) -> automatic pairing
 6. [nerdtree ](https://github.com/preservim/nerdtree) -> system explorer
-
+7. [nerdcommenter](https://github.com/preservim/nerdcommenter) -> Comment functions
+8. 
 ## Output
 <img src="https://user-images.githubusercontent.com/52058660/130341075-a2bde70e-b092-4200-9bff-8cf64c90f366.png" width="700">
 
