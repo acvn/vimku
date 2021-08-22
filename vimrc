@@ -1,3 +1,4 @@
+"===bismillah===>
 syntax on 
 set number 
 set noswapfile 
@@ -6,21 +7,18 @@ set ignorecase
 set incsearch
 
 
-"""""""""""""""""""""""""""""""""""""vim.plug"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+"===plugin===>
 call plug#begin('~/.vim/plugged')
 Plug 'sheerun/vim-polyglot'
 Plug 'dense-analysis/ale'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
-"Plug 'jaredgorski/spacecamp'
+Plug 'preservim/nerdtree'
+Plug 'preservim/nerdcommenter'
 call plug#end()
 
 
-
-
-"""""""""""""""""""""""""""""""""""""coc.nvim"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+"===konfigurasi coc===>
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
@@ -45,14 +43,14 @@ inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 autocmd FileType json syntax match Comment +\/\/.\+$+
 
 
-
-
-""""""""""""""""""""""""""""""""""""""template"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
+"===template html===>
 nnoremap <F9> :r /home/keju/.vim/template/html.html
 
 
+"===exit dari insert mode===>
+inoremap jk <ESC>
 
 
-""""""""""""""""""""""""""""""""""""""colorscheme"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-"colorscheme spacecamp
+"===konfigurasi NERDTree===>
+autocmd VimEnter * NERDTree "NERDTree start otomatis ketika vim di buka
+autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif "Close vim, ketika hanya ada NERDTree tab
