@@ -9,7 +9,7 @@ Plugin2 yang saya gunakan untuk power-up my vim.
 6. [nerdtree ](https://github.com/preservim/nerdtree) -> system explorer
 
 ## Output
-<img src="https://user-images.githubusercontent.com/52058660/127868951-6522201c-077b-4744-aff1-993a00a43179.png" width="700">
+<img src="https://user-images.githubusercontent.com/52058660/130341075-a2bde70e-b092-4200-9bff-8cf64c90f366.png" width="700">
 
 ## Resource
 1. [Learn Vim For the Last Time: A Tutorial and Primer](https://danielmiessler.com/study/vim/)
