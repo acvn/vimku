@@ -15,6 +15,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 
@@ -52,5 +53,8 @@ inoremap jk <ESC>
 
 
 "===konfigurasi NERDTree===>
-autocmd VimEnter * NERDTree "NERDTree start otomatis ketika vim di buka
+autocmd VimEnter * NERDTree | wincmd p "NERDTree start otomatis ketika vim di buka
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif "Close vim, ketika hanya ada NERDTree tab
+
+"===savevimassudo===>
+command! -nargs=0 Sw w !sudo tee % > /dev/null
