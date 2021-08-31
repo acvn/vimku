@@ -13,9 +13,9 @@ Plug 'sheerun/vim-polyglot'
 Plug 'dense-analysis/ale'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
-Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'tpope/vim-surround'
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 
@@ -51,10 +51,9 @@ nnoremap <F9> :r /home/keju/.vim/template/html.html
 "===exit dari insert mode===>
 inoremap jk <ESC>
 
-
-"===konfigurasi NERDTree===>
-autocmd VimEnter * NERDTree | wincmd p "NERDTree start otomatis ketika vim di buka
-autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif "Close vim, ketika hanya ada NERDTree tab
-
 "===savevimassudo===>
 command! -nargs=0 Sw w !sudo tee % > /dev/null
+
+"===konfigurasi ALE===>
+let g:ale_disable_lsp = 1
+let g:airline#extensions#ale#enabled = 1
