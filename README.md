@@ -18,6 +18,7 @@ Plugin2 yang saya gunakan untuk power-up my vim.
 ## Resource
 1. [Learn Vim For the Last Time: A Tutorial and Primer](https://danielmiessler.com/study/vim/)
 2. [How to Learn Vim in 2020 ](https://dev.to/iggredible/learning-vim-in-2020-1mma)
+3. [VIM and Python – A Match Made in Heaven](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
 
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)
