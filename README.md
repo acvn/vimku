@@ -9,7 +9,8 @@ Plugin2 yang saya gunakan untuk power-up my vim.
 6. [The NERDTree](https://github.com/preservim/nerdtree) - system explorer
 7. [NERD Commenter](https://github.com/preservim/nerdcommenter) - comment functions
 8. [surround.vim](https://github.com/tpope/vim-surround) - surrounding
-9. [vim-airline](https://github.com/vim-airline/vim-airline) - Statusline
+9. [vim-airline](https://github.com/vim-airline/vim-airline) - statusline
+10. [SimpylFold](https://github.com/tmhedberg/SimpylFold) - folding
 
 ## Output
 <img src="https://user-images.githubusercontent.com/52058660/130343474-82da9a9c-c873-43ab-b9d5-77671c9c524e.png" width="700">
@@ -17,6 +18,7 @@ Plugin2 yang saya gunakan untuk power-up my vim.
 ## Resource
 1. [Learn Vim For the Last Time: A Tutorial and Primer](https://danielmiessler.com/study/vim/)
 2. [How to Learn Vim in 2020 ](https://dev.to/iggredible/learning-vim-in-2020-1mma)
+3. [VIM and Python – A Match Made in Heaven](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
 
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)
