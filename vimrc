@@ -16,6 +16,9 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdcommenter'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
+Plug 'tmhedberg/SimpylFold'
+Plug 'vim-scripts/indentpython.vim'
+Plug 'nvie/vim-flake8'
 call plug#end()
 
 
@@ -57,3 +60,34 @@ command! -nargs=0 Sw w !sudo tee % > /dev/null
 "===konfigurasi ALE===>
 let g:ale_disable_lsp = 1
 let g:airline#extensions#ale#enabled = 1
+
+"===konfigurasifolding===>
+let g:SimpylFold_docstring_preview = 1
+
+
+"===konfigurasipython===>
+"indentation
+au BufNewFile,BufRead *.py 
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
+"flagging unnecessary whitespac
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+"setutf-8 support
+set encoding=utf-8
+"make your code look pretty
+let python_highlight_all=1
+syntax on
+"System Clipboard
+set clipboard=unnamed
+
+"===konfigurasifullstackdevelopment===>
+au BufNewFile,BufRead *.js, *.html, *.css
+    \ set tabstop=2
+    \ set softtabstop=2
+    \ set shiftwidth=2
+
