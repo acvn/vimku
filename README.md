@@ -9,7 +9,8 @@ Plugin2 yang saya gunakan untuk power-up my vim.
 6. [The NERDTree](https://github.com/preservim/nerdtree) - system explorer
 7. [NERD Commenter](https://github.com/preservim/nerdcommenter) - comment functions
 8. [surround.vim](https://github.com/tpope/vim-surround) - surrounding
-9. [vim-airline](https://github.com/vim-airline/vim-airline) - Statusline
+9. [vim-airline](https://github.com/vim-airline/vim-airline) - statusline
+10. [SimpylFold](https://github.com/tmhedberg/SimpylFold) - folding
 
 ## Output
 <img src="https://user-images.githubusercontent.com/52058660/130343474-82da9a9c-c873-43ab-b9d5-77671c9c524e.png" width="700">
