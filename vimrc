@@ -17,7 +17,11 @@ Plug 'preservim/nerdcommenter'
 Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'nvie/vim-flake8'
+"Plug 'puremourning/vimspector'
 call plug#end()
+
+"===java configuration===>
+let g:vimspector_enable_mappings = 'HUMAN'
 
 
 "===konfigurasi coc===>
