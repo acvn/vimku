@@ -20,6 +20,7 @@ Plugin2 yang saya gunakan untuk power-up my vim.
 1. [Learn Vim For the Last Time: A Tutorial and Primer](https://danielmiessler.com/study/vim/)
 2. [How to Learn Vim in 2020 ](https://dev.to/iggredible/learning-vim-in-2020-1mma)
 3. [VIM and Python – A Match Made in Heaven](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
+4. [My Top 5 COC.nvim Extensions](https://medium.com/@lpestana/my-top-5-coc-nvim-extensions-ad09bfce973b)
 
 ## Ask Me!
 acvn on [Twitter](https://twitter.com/acunsumageka) or [Instagram](https://www.instagram.com/aldi___satria/)
