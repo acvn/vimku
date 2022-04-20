@@ -22,4 +22,4 @@ Plugin2 yang saya gunakan untuk power-up my vim.
 3. [VIM and Python – A Match Made in Heaven](https://realpython.com/vim-and-python-a-match-made-in-heaven/)
 
 ## Ask Me!
-acvn on [Twitter](https://twitter.com/aldi__satria) or [Instagram](https://www.instagram.com/aldi___satria/)
+acvn on [Twitter](https://twitter.com/acunsumageka) or [Instagram](https://www.instagram.com/aldi___satria/)
